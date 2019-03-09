@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Jumbotron, Card } from 'reactstrap';
+import { Row, Col, Jumbotron } from 'reactstrap';
 import './App.css';
 import Comp from './Comp';
 
@@ -116,7 +116,8 @@ class App extends Component {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col className="col-sm-4"></Col>
+            <Col className="col-sm-4">
               <Comp
                 firstName={this.state.bandMember[9].firstName}
                 lastName={this.state.bandMember[9].lastName}
@@ -125,7 +126,7 @@ class App extends Component {
                 yearsPerformed={this.state.bandMember[9].yearsPerformed}
               />
             </Col>
-
+            <Col className="col-sm-4"></Col>
           </Row>
 
         </div>
