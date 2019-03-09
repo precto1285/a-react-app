@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container my-3">
-          <Jumbotron>
+          <Jumbotron className="text-center bg-primary text-white">
             <h1>The Band</h1>
           </Jumbotron>
           <Row>
